@@ -1,0 +1,103 @@
+{
+    "statusCode": 200,
+    "message": "Success",
+    "data": [
+        {
+            "_id": "622de520d0ff018340dc017a",
+            "questions": [
+                {
+                    "_id": "622c6ce64d8961f9d5c967ea",
+                    "percentage": 12.5,
+                    "question": "Are you registered with DigiReally",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "questionType": "options",
+                    "questionNo": 1
+                },
+                {
+                    "_id": "622c6d8d4d8961f9d5c967eb",
+                    "percentage": 25,
+                    "question": "Are you an owner or tenant",
+                    "prevQuestion": 1,
+                    "options": [
+                        "Owner",
+                        "Tenant"
+                    ],
+                    "questionType": "options",
+                    "questionNo": 2
+                },
+                {
+                    "_id": "622c6db24d8961f9d5c967ec",
+                    "percentage": 100,
+                    "question": "What would you like to explore at DigiReally",
+                    "prevQuestion": 1,
+                    "options": [
+                        "Lodha Prop",
+                        "App Features"
+                    ],
+                    "questionType": "options",
+                    "questionNo": 3
+                },
+                {
+                    "_id": "622c6dc34d8961f9d5c967ed",
+                    "percentage": 37.5,
+                    "question": "please select your city",
+                    "prevQuestion": 2,
+                    "url": "/getCities/",
+                    "questionType": "city",
+                    "questionNo": 4
+                },
+                {
+                    "_id": "622c6dd04d8961f9d5c967ee",
+                    "percentage": 50,
+                    "question": "please select your society",
+                    "prevQuestion": 4,
+                    "url": "/getSociety/",
+                    "questionType": "society",
+                    "questionNo": 5
+                },
+                {
+                    "_id": "622c6dde4d8961f9d5c967ef",
+                    "percentage": 62.5,
+                    "question": "please select your Wings",
+                    "prevQuestion": 5,
+                    "url": "/getWings/",
+                    "questionType": "wings",
+                    "questionNo": 6
+                },
+                {
+                    "_id": "622c6de94d8961f9d5c967f0",
+                    "percentage": 75,
+                    "question": "please select your Flat NO",
+                    "prevQuestion": 6,
+                    "url": "/getFlats/",
+                    "questionType": "flats",
+                    "questionNo": 7
+                },
+                {
+                    "_id": "622c6df44d8961f9d5c967f1",
+                    "percentage": 87.5,
+                    "question": "please upload your Document",
+                    "prevQuestion": 7,
+                    "url": "/getIdDocument/",
+                    "questionType": "idDocument",
+                    "questionNo": 8
+                },
+                {
+                    "_id": "622c6dfe4d8961f9d5c967f2",
+                    "percentage": 100,
+                    "question": "please upload your Aggrements",
+                    "prevQuestion": 8,
+                    "url": "/getOtherDocument/",
+                    "questionType": "otherDocuments",
+                    "questionNo": 9
+                }
+            ],
+            "nextQuestionNo": 1,
+            "isCompleted": false,
+            "isSkip": false
+        }
+    ]
+}
